@@ -1,0 +1,276 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 640px;
+    padding-left: 10px;
+    
+    
+    
+}
+.container_2{
+    display: flex;
+    margin-left: -50px;
+}
+.col{
+    display: flex;
+}
+.nav_1{
+    position:sticky;
+    background-color: white;
+    top: 0%;
+    z-index:100 ;
+}
+
+ul li{
+    padding: 5px;
+
+    
+}
+.col_1{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    align-items: end;
+    text-align: center;
+    color: green;
+}
+ul a:hover{
+    color: rgb(83, 129, 14);
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+    
+}
+.logotitle{
+    font-size: 34px;
+    font-family: 'Philosopher', sans-serif;
+    color: green;
+}
+.maindiv{
+position: relative;
+}  
+.maindivchild{
+position: absolute;
+left: 10px;
+top: 100px;
+
+}
+.mainh1{
+    color: rgb(157, 239, 157);
+    font-family: 'Yatra One', cursive;
+    text-shadow: 2px 8px 12px green;
+}
+.mainh1para{
+    color: white;
+    font-family: 'Yatra One', cursive;
+    text-align: justify;
+}
+.container_1{
+display: flex;
+align-items: center;
+margin-left:80px;
+padding: 10px;
+}
+.card{
+    transition: 1s;
+   
+}
+.card:hover{
+    box-shadow: 0px 1px 5px 1px rgb(10, 218, 44);
+   
+    transform: scale(1);
+
+}
+.card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mainh1_2{
+    color: green;
+    font-family: 'Philosopher', sans-serif;
+    text-shadow: 4px 4px 8px rgb(14, 17, 14);
+}
+.row{
+    display:flex;
+    margin:10px;
+    text-align: center;
+    padding-left: 45px; 
+}
+.row_1{
+    display: flex;
+    padding-left: 80px;
+}
+.destheads{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 6px 5px rgb(85, 82, 82);
+    font-family: 'Black Ops One', cursive;
+
+}
+.container_4{
+    /* width:400px;
+    height: 410px; */
+    padding-left: 400px;
+    padding-right:400px ;
+    background-color: rgb(222, 239, 222);
+    
+}
+.para2{
+    font-family: 'Yatra One', cursive;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+    /* Top destinations */
+    .container_1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left:80px;
+        padding: 20px;
+        margin:10px
+        }
+    .card{
+        
+        margin: 10px;
+        padding: 10px;
+    }
+    .col_1{
+        margin-left: 100px;
+    }
+
+    /* packages */
+    .col_2{
+        margin-left: 30px;
+    }
+    .col_3{
+       margin-left:-50px;
+    }
+
+    /* Destinations */
+    .container_2{
+        display:list-item;
+
+ 
+    }
+    .row_1{
+        display: flex;
+        flex-direction:column ;
+        padding-left: 130px;
+    }
+    
+
+    /* Contact Us */
+    .container_4{
+        padding-left: 100px;
+        padding-right:100px ;
+        background-color: rgb(222, 239, 222);
+    }
+    /* navbar */
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        list-style-type: none;
+        text-decoration: none;
+        margin-left:110px;
+        padding-left:-12px;
+        
+        
+        
+    }
+    ul li{
+        padding:10px;
+    
+        
+    }
+}
+@media screen and (max-width: 400px){
+    .maindiv{
+        height:610px;
+        width:610px;
+        
+    }
+    .logotitle{
+        font-size: 22px;
+    }
+    .mainh1{
+        font-size: 19px;
+    }
+    .mainh1para{
+        font-size: 10px;
+    }
+    .container_1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left:30px;
+        padding:10px;
+        margin:10px
+        }
+     .col_1{
+        margin-left: 15px;
+     } 
+       .row_1{
+        display: flex;
+        flex-direction:column ;
+        padding-left:40px;
+    }
+    .container_4{
+        padding-left: 50px;
+        padding-right:50px ;
+        background-color: rgb(222, 239, 222);
+    }
+    .container_2{
+        display:list-item;
+        margin-left: 25px;
+
+ 
+    }
+}
+@media screen and (max-width: 500px){
+    .maindiv{
+        height:610px;
+        width:610px;
+        
+    }
+    .logotitle{
+        font-size: 25px;
+    }
+    .mainh1{
+        font-size: 15px;
+    }
+    .mainh1para{
+        font-size: 10px;
+    }
+    .container_1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left:30px;
+        padding:10px;
+        margin:10px
+        }
+       .col_1{
+        margin-left: 50px;
+     } 
+       .row_1{
+        display: flex;
+        flex-direction:column ;
+        padding-left:90px;
+    }
+    .container_4{
+        padding-left: 40px;
+        padding-right:40px ;
+        background-color: rgb(222, 239, 222);
+    }
+    .container_2{
+        display:list-item;
+        margin-left: 25px;
+
+ 
+    }
+}
